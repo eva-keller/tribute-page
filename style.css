@@ -1,0 +1,48 @@
+<style> #header {
+  background-color: lawngreen;
+  text-align: center;
+}
+
+body.double {
+  border-style: double;
+  border-width: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#paragraph {
+  margin-right: 35px;
+  margin-left: 35px;
+  text-align: justify;
+}
+
+#multicolumn {
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+#footer{
+  text-align: center;
+  padding: 10px;
+  font-family: Segoe Print;
+}
+
+#img-div{
+  width: 300px;
+  height: 200px;
+}
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  
+  
+}
+
+</style>
